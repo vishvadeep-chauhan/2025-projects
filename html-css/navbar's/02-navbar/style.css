@@ -1,0 +1,67 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    background-color: rgb(184, 8, 8);
+
+}
+
+
+
+li, a, button{
+    font-weight: 500;
+    font-size: 16px;
+    color: aliceblue;
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 10%;
+
+}
+
+.logo{
+    margin-right: auto;
+
+    max-width: 30%;
+    height: auto;
+    cursor: pointer;
+
+
+}
+
+.nav__links{
+    list-style: circle;
+}
+
+.nav__links li{
+    display: inline-block;
+    padding: 0px 10px;
+}
+
+.nav__links li a{
+    transition: all 0.2s ease-in-out 0s;
+}
+
+
+.nav__links li a:hover{
+    color: rgb(27, 145, 145);
+}
+
+button{
+    margin-left: 20px;
+    padding: 9px 20px;
+    background-color:  rgba(8, 8, 8, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    
+}
+
+button:hover{
+    background-color: rgb(31, 35, 0);
+}
