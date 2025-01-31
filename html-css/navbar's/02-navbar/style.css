@@ -1,8 +1,8 @@
-*{
+body{
     box-sizing: border-box;
     margin: 0%;
     padding: 0%;
-    background-color: rgb(184, 8, 8);
+    background-color: rgb(220, 0, 0);
 
 }
 
@@ -19,12 +19,13 @@ header{
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    padding: 30px 10%;
+    padding: 0px 10%;
 
 }
 
 .logo{
     margin-right: auto;
+    margin-left: auto;
 
     max-width: 30%;
     height: auto;
@@ -64,4 +65,13 @@ button{
 
 button:hover{
     background-color: rgb(31, 35, 0);
+}
+
+.box {
+
+
+    background-color: rgba(192, 192, 190, 0.29);
+    /* border: 10px solid black; */
+    border-radius: 100px;
+    margin: 2% 10%;
 }
